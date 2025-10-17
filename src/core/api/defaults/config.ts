@@ -443,6 +443,8 @@ export interface ODJsonConfig_DefaultOptionTicketType extends ODJsonConfig_Defau
     allowCreationByBlacklistedUsers:boolean,
     /**A list of valid question ids from the `questions.json` config. */
     questions:string[],
+    /**Optional custom transcript channel for this ticket type. If not set, uses default from transcripts.json */
+    transcriptChannel?:string,
     /**All settings related to the ticket channel itself. */
     channel:ODJsonConfig_DefaultOptionTicketChannelType,
     /**All settings related to the message sent in DM to the creator when the ticket is created. */

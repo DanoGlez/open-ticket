@@ -4,6 +4,7 @@
         "name":"Question",
         "description":"Create this ticket if you have a question! (or leave empty)",
         "type":"ticket",
+        "transcriptChannel":"transcript-channel-id (or leave empty)",
 
         "button":{
             "emoji":"🎫 (or leave empty)",

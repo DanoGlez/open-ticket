@@ -75,6 +75,7 @@ export const loadTicketOption = (option:api.ODJsonConfig_DefaultOptionTicketType
         new api.ODOptionData("opendiscord:channel-category-backup",option.channel.backupCategory),
         new api.ODOptionData("opendiscord:channel-categories-claimed",option.channel.claimedCategory),
         new api.ODOptionData("opendiscord:channel-topic",option.channel.topic),
+        new api.ODOptionData("opendiscord:transcript-channel",option.transcriptChannel ?? null),
         
         new api.ODOptionData("opendiscord:dm-message-enabled",option.dmMessage.enabled),
         new api.ODOptionData("opendiscord:dm-message-text",option.dmMessage.text),
